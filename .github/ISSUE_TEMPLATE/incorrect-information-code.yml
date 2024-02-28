@@ -21,6 +21,13 @@ body:
     validations:
       required: false
   - type: textarea
+    id: context
+    attributes:
+      label: Quoted material from article
+      description: Relevant section of article
+      placeholder: Copy and paste relevant section of article here
+      render: shell
+  - type: textarea
     id: what-happened
     attributes:
       label: What happened?
