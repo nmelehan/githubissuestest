@@ -23,17 +23,21 @@ body:
   - type: textarea
     id: context
     attributes:
-      label: Quoted material from article
-      description: Relevant section of article
-      placeholder: Copy and paste relevant section of article here
+      label: Relevant material from article
+      description: The text, code samples, commands, from the article that the issue is in reference to
+      placeholder: Copy and paste relevant content from article here
       render: shell
   - type: textarea
-    id: what-happened
+    id: issue-description
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Description of issue
+      description: A summary of the problem, along with any suggested fixes (optional)
+      placeholder: |
+        Tell us about any:
+        - incorrect or outdated information
+        - Sample code or commands that produce errors
+        - Unclear instructions or missing steps
+        - Typos, spelling errors, or grammar issues
     validations:
       required: true
   - type: dropdown
