@@ -27,6 +27,7 @@ body:
     attributes:
       label: Quoted material from article
       placeholder: Copy and paste relevant section of article here
+      value: "test"
       render: shell
   - type: textarea
     id: what-happened
