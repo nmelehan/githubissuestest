@@ -19,7 +19,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: issue-description
+    id: issuedescription
     attributes:
       label: Description of incorrect information/code
       description: Which information or code needs to be corrected?
@@ -28,7 +28,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: proposed-fix
+    id: proposedfix
     attributes:
       label: Your proposed fix for the incorrect information/code (optional)
       description: How should the incorrect information/code be fixed?
