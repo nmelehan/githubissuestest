@@ -19,6 +19,15 @@ body:
     validations:
       required: false
   - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
     id: issuedescription
     attributes:
       label: Description of incorrect information
@@ -33,6 +42,6 @@ body:
       label: Your proposed fix for the incorrect information
       description: How should the incorrect information be fixed
       placeholder: Your proposed fix
-      value: ""
+      value: "a bug happened, fix"
     validations:
       required: false
