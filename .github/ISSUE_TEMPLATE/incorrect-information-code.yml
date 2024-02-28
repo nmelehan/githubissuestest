@@ -1,6 +1,6 @@
-name: Incorrect information or code
+name: Docs issue report
 description: File a report on incorrect information or code
-title: "[Incorrect information or code]: "
+title: "[Docs issue report]: "
 labels: ["triage"]
 body:
   - type: markdown
@@ -17,7 +17,7 @@ body:
   - type: input
     id: file
     attributes:
-      label: The source file
+      label: The source article
       description: A link to an article on https://www.linode.com/docs/
       placeholder: https://www.linode.com/docs/
     validations:
