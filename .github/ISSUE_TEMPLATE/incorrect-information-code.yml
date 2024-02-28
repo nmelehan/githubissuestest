@@ -34,10 +34,11 @@ body:
       description: A summary of the problem, along with any suggested fixes (optional)
       placeholder: |
         Tell us about any:
-        - incorrect or outdated information
+        - Incorrect or outdated information
         - Sample code or commands that produce errors
         - Unclear instructions or missing steps
         - Typos, spelling errors, or grammar issues
+        - Other problems not mentioned here
     validations:
       required: true
   - type: dropdown
