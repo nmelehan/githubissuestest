@@ -7,7 +7,7 @@ body:
     id: context
     attributes:
       value: |
-        Thank you for filing this report!
+        Thank you for filing this report [test link](https://google.com)!
   - type: input
     id: file
     attributes:
