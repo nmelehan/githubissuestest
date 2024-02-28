@@ -4,7 +4,6 @@ title: "[Incorrect information or code]: "
 labels: ["triage"]
 body:
   - type: markdown
-    id: context
     attributes:
       value: |
         Use this form to file an issue with an article on [https://www.linode.com/docs/](linode.com/docs).
@@ -21,6 +20,14 @@ body:
       label: The Source File
     validations:
       required: false
+  - type: textarea
+    id: context
+    description: Relevant section of article
+    attributes:
+      label: Quoted material from article
+      placeholder: Copy and paste relevant section of article here
+      value: "test"
+      render: shell
   - type: textarea
     id: what-happened
     attributes:
