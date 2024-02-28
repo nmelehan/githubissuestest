@@ -1,6 +1,6 @@
 name: Docs issue report
 description: File a report on incorrect information or code
-title: "[Docs issue report]: "
+title: "[Docs issue]: "
 labels: ["triage"]
 body:
   - type: markdown
