@@ -1,5 +1,5 @@
 name: Docs issue report
-description: File a report on incorrect information or code
+description: Report an issue for an article on the Linode documentation site
 title: "[Docs issue]: "
 labels: ["triage"]
 body:
