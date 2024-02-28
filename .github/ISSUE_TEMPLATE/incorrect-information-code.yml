@@ -4,14 +4,10 @@ title: "[Incorrect information or code]: "
 labels: ["triage"]
 body:
   - type: markdown
+    id: context
     attributes:
       value: |
         Thank you for filing this report!
-  - type: textarea
-    id: context
-    attributes:
-      label: Relevant Context
-      render: shell
   - type: input
     id: file
     attributes:
