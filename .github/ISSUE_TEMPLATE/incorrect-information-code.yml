@@ -20,7 +20,6 @@ body:
       label: The source file
       attributes:
         description: A link to an article on https://www.linode.com/docs/
-        placeholder: https://www.linode.com/docs/
     validations:
       required: false
   - type: textarea
