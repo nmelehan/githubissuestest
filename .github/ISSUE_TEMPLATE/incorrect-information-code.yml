@@ -19,11 +19,20 @@ body:
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: issue-description
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: Description of incorrect information/code
+      description: Which information or code needs to be corrected?
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
       required: true
+  - type: textarea
+    id: proposed-fix
+    attributes:
+      label: Your proposed fix for the incorrect information/code (optional)
+      description: How should the incorrect information/code be fixed?
+      placeholder: Your proposed fix
+      value: ""
+    validations:
+      required: false
