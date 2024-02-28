@@ -22,6 +22,11 @@ body:
     validations:
       required: false
   - type: textarea
+    id: context
+    attributes:
+      label: Relevant Context
+      render: shell
+  - type: textarea
     id: what-happened
     attributes:
       label: What happened?
@@ -33,7 +38,7 @@ body:
   - type: dropdown
     id: category
     attributes:
-      label: category
+      label: Issue category
       description: What category best describes the issue?
       options:
         - Information incorrect or outdated
@@ -44,21 +49,3 @@ body:
       default: 4
     validations:
       required: true
-  - type: textarea
-    id: issuedescription
-    attributes:
-      label: Description of incorrect information
-      description: Which information or code needs to be corrected
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: textarea
-    id: proposedfix
-    attributes:
-      label: Your proposed fix for the incorrect information
-      description: How should the incorrect information be fixed
-      placeholder: Your proposed fix
-      value: "a bug happened, fix"
-    validations:
-      required: false
