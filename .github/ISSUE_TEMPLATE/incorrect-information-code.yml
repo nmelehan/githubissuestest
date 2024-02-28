@@ -17,7 +17,10 @@ body:
   - type: input
     id: file
     attributes:
-      label: The Source File
+      label: The source file
+      attributes:
+        description: A link to an article on https://www.linode.com/docs/
+        placeholder: https://www.linode.com/docs/
     validations:
       required: false
   - type: textarea
@@ -31,7 +34,7 @@ body:
     id: issue-description
     attributes:
       label: Description of issue
-      description: A summary of the problem, along with any suggested fixes (optional)
+      description: A summary of the problem, along with any suggested fixes you may have
       placeholder: |
         Tell us about any:
         - Incorrect or outdated information
