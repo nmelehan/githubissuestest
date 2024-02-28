@@ -30,6 +30,20 @@ body:
       value: "A bug happened!"
     validations:
       required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: category
+      description: What category best describes the issue?
+      options:
+        - Information incorrect or outdated
+        - Sample code or command produces error
+        - Unclear instructions or missing steps
+        - Typo, spelling, or grammar issue
+        - Other
+      default: 4
+    validations:
+      required: true
   - type: textarea
     id: issuedescription
     attributes:
