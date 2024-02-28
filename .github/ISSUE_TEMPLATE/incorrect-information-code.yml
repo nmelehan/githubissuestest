@@ -7,7 +7,14 @@ body:
     id: context
     attributes:
       value: |
-        Thank you for filing this report [test link](https://google.com)!
+        Use this form to file an issue with an article on [https://www.linode.com/docs/](linode.com/docs).
+
+        - If you would prefer to provide a 1-5 star rating for a guide, a feedback form is linked to from the bottom of each article.
+        - A Disqus form is also available at the bottom of each article to discuss it with other readers.
+        - For issues with your Akamai/Linode account or resources, please [contact customer support](https://www.linode.com/docs/products/platform/get-started/guides/support/#contact-customer-support).
+        - For other cloud computing discussions not related to specific Linode documentation, visit the [Community Questions forum](https://www.linode.com/community/questions/).
+
+        Thank you for filing your report!
   - type: input
     id: file
     attributes:
