@@ -1,6 +1,6 @@
-name: Bug Report 3
-description: File a bug report
-title: "[Bug]: "
+name: Incorrect information or code
+description: File a report on incorrect information or code
+title: "[Incorrect information or code]: "
 labels: ["triage"]
 body:
   - type: markdown
