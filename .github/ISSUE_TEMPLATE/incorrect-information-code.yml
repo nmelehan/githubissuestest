@@ -23,8 +23,10 @@ body:
       required: false
   - type: textarea
     id: context
+    description: Relevant section of article
     attributes:
-      label: Relevant Context
+      label: Quoted material from article
+      placeholder: Copy and paste relevant section of article here
       render: shell
   - type: textarea
     id: what-happened
