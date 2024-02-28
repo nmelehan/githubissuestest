@@ -21,12 +21,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: context
-    description: Relevant section of article
-    attributes:
-      label: Quoted material from article
-      render: shell
-  - type: textarea
     id: what-happened
     attributes:
       label: What happened?
