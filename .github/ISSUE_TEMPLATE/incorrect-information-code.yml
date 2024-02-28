@@ -6,7 +6,7 @@ body:
   - type: markdown
     id: context
     attributes:
-      placeholder: |
+      value: |
         Thank you for filing this report!
   - type: input
     id: file
