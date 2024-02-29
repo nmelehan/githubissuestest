@@ -54,6 +54,5 @@ body:
         - Unclear instructions or missing steps
         - Typo, spelling, or grammar issue
         - Other
-      default: 4
     validations:
       required: true
