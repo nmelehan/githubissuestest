@@ -49,6 +49,7 @@ body:
       label: Issue category
       description: What category best describes the issue?
       options:
+        - ""
         - Information incorrect or outdated
         - Sample code or command produces error
         - Unclear instructions or missing steps
